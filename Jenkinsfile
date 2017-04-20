@@ -1,9 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('Preparación') {
+    stage('Preparacion') {
       steps {
-        echo 'Empezamos con la Configuración'
+        echo 'Empezamos con la ConfiguraciÃ³n'
+        git(url: 'https://github.com/deyson12/PokemonGo.git', branch: 'master')
       }
     }
   }
