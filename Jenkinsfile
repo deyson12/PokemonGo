@@ -2,7 +2,7 @@ node {
    def mvnHome
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git 'https://deyson12@gitlab.com/deyson12/IntegracionPrueba.git'
+      git 'https://github.com/deyson12/PokemonGo.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
